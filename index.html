@@ -11,9 +11,13 @@
 <body>
     <div id="squla-game-container"></div>
     <script src="https://funlearning-nl-staging.squ.la/v1/embed-game/quiz-hotspot-test/ooO8eL36/on-id/squla-game-container/game.js?platform=web&prototype=true"></script>
+    <script src="https://funlearning-nl-staging.squ.la/v1/embed-game/quiz-hotspot-test/ooO8eL36/on-id/squla-game-container/game.js?platform=web&prototype=true"></script>
     <script>
         window.onload = () => {
-            document.getElementById("squla-game-container").style.height = "100%";
+            setTimeout(() => {
+                document.getElementById("squla-game-container").style.height = "100%";
+                document.getElementById("squla-game-container-iframe").style.height = "100%";
+            }, 100)
         }
     </script>
     
